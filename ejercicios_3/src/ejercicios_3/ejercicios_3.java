@@ -6,7 +6,7 @@
  * 
  * LA FÓRMULA DEL IMC = PESO KG / ESTATURA AL CUADRADO METROS
  *  * SI IMC < 16 ->> su imc es DESNUTRIDO
- * SI IMC >= 16 Y < 18  ->> su imc es DELGADO
+ * SIr IMC >= 16 Y < 18  ->> su imc es DELGADO
  * SI IMC >= 18 Y < 25  ->> su imc es IDEAL
  * SI IMC >= 25 Y < 31  ->> su imc es SOBREPESO
  * SI IMC >= 31 ->> su imc es OBESO
@@ -54,7 +54,8 @@ public class ejercicios_3 {
 			case 1 : System.out.println("su IMC es delgado");break;
 			case 2 : System.out.println("su IMC es el ideal");break;
 			case 3 : System.out.println("su IMC es sobrepeso");break;
-			case 4 : System.out.println("su IMC es obeso");break;
+			case 4 : System.ou
+			t.println("su IMC es obeso");break;
 			}
 		return imc;
 		
