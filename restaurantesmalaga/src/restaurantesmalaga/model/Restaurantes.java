@@ -1,6 +1,7 @@
 package restaurantesmalaga.model;
 
 import java.util.List;
+import java.util.Arrays;
 
 public class Restaurantes {
 	
@@ -17,6 +18,9 @@ public class Restaurantes {
 	public String getNombre() {
 		return nombre;
 	}
+	public Restaurantes() {
+		// TODO Auto-generated constructor stub
+	}
 	
 	public Restaurantes(String nombre, String direccion, String web, String fichaGoogle, float latitud, float longitud,
 			String barrio, String... especialidades) {
@@ -28,11 +32,12 @@ public class Restaurantes {
 		this.latitud = latitud;
 		this.longitud = longitud;
 		this.barrio = barrio;
-		this.especialidades = Array.asList(especialidades);
+		this.especialidades = Arrays.asList(especialidades);
 	}
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+		
 	}
 	public String getDireccion() {
 		return direccion;
